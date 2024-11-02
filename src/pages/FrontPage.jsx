@@ -37,7 +37,7 @@ export default function FrontPage() {
         setStudentData(null)
       }
     } catch (err) {
-      setError("An error occurred while fetching student data");
+      setError("An error occurred while fetching student data",err);
       setStudentData(null)
     } finally {
       setLoading(false);
