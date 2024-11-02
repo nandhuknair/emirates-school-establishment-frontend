@@ -4,7 +4,7 @@ import { EyeOff, Eye } from "lucide-react";
 import axios from "axios";
 
 const fetchStudentData = async (id) => {
-  const response = await axios.get(`http://localhost:8080/api/studentDetails/${id}`);
+  const response = await axios.get(`https://emirates-school-establishment-backend.onrender.com/api/studentDetails/${id}`);
   return response.data;
 };
 
