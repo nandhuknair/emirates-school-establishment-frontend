@@ -7,7 +7,7 @@ import axios from "axios"; // Import Axios
 // Function to fetch student data using Axios
 const fetchStudentData = async (id) => {
   const response = await axios.get(
-    `http://localhost:8080/api/studentDetails/${id}`
+    `https://emirates-school-establishment-backend.onrender.com/api/studentDetails/${id}`
   );
   return response.data; // Return the student data from the response
 };
