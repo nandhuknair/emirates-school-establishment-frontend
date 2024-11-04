@@ -109,14 +109,14 @@ const StudentDetailsPage = () => {
             onClick={handleGoBack}
             className="w-full bg-[#6E6658] text-white py-2 px-4 rounded-md hover:bg-[#5A5347] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6E6658]"
           >
-            Okay
+            Close
           </button>
 
           <button
             onClick={() => window.close()}
             className="w-full bg-[#6E6658] text-white py-2 mt-4 px-4 rounded-md hover:bg-[#5A5347] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6E6658]"
           >
-            Close
+            Exit
           </button>
         </div>
       </div>
